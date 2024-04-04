@@ -5,6 +5,7 @@ return [
     "company_name" => "IT",
     "choose_lang" => "إختر اللغة",
     "home" => "الرئيسية",
+    "about_us" => "من نحن",
     "sign_in_to_admin" => "تسجيل الدخول للوحة التحكم",
     "sign_in" => "تسجيل الدخول",
     "sign_out" => "تسجيل الخروج",

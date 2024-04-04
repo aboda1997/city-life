@@ -6,6 +6,7 @@ return [
     "sign_in_to_admin" => "Sign In To Dashboard",
     "sign_in" => "Sign In",
     "sign_out" => "Sign Out",
+    "about_us" => "about us",
     "sign_in_desc" => "Enter your details to login to your account:",
     "email" => "Email",
     "password" => "Password",
