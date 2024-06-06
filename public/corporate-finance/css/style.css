@@ -2640,7 +2640,3 @@ ul.rounded li::before {
         margin: 0;
     }
 }
-
-.tp-mask-wrap{
-    transform: matrix(1, 0, 0, 1, 200, 0) !important;
-}

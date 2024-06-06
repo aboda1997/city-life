@@ -7,8 +7,8 @@
                 <!-- SLIDE 1 -->
                 <li data-index="rs-01" data-transition="fade" data-slotamount="default" data-easein="Power100.easeIn"
                     data-easeout="Power100.easeOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="01">
-                    <!-- MAIN IMAGE -->
-                    <img src="{{ $sliders[0]->image }}" data-kenburns="on" data-duration="15000"
+                    <!-- MAIN IMAGE --> 
+                    <img src="public/uploads/seeders/sliders/01.jpg" data-kenburns="on" data-duration="15000"
                         data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0"
                         data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10"
                         data-bgfit="cover" data-bgrepeat="no-repeat" data-bgposition="center center" class="rev-slidebg"
@@ -16,27 +16,26 @@
                     <div class="bg-overlay bg-black opacity-5"></div>
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption tp-resizeme rs-parallaxlevel-2"
-                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                    tp-mask-wraptp-mask-wrap-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                         data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-65','-65']"
                         data-width="none" data-height="none" data-type="text"
                         data-textAlign="['center','center','center','center']" data-responsive_offset="on"
                         data-start="1000"
                         data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":280,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'>
                         <p class="text-white alt-font font-18">
-                            Lorem ipsum dolor sit amet purus.
-                        </p>
+                        {{ __('words.dt_infoPostFix') }}                        </p>
                     </div>
                     <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme rs-parallaxlevel-3"
+                    <div class=" handle tp-caption tp-resizeme rs-parallaxlevel-3"
                         data-x="['center','center','center','center']" data-offset="['0','0','0','0']"
                         data-y="['middle','middle','middle','middle']" data-voffset="['-30','-30','-10','-10']"
                         data-width="none" data-height="none" data-type="text"
                         data-textAlign="['center','center','center','center']" data-responsive_offset="on"
                         data-start="1000"
                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <h1 class="text-white font-40 main-font font-weight-600 text-capitalize">
-                            Corporate Finance
-                        </h1>
+                        <h1 class="  text-white font-40 main-font font-weight-600 text-capitalize">
+{{ __('words.dt_infoPostFix') }}                   
+     </h1>
                     </div>
                     <!-- it has the following collection and ask for more data  -->
                     <!-- the request structure has the following attributtes -->
@@ -49,8 +48,7 @@
                         data-start="1000"
                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
                         <h1 class="text-white font-40 main-font font-weight-600 text-capitalize">
-                            <span class="font-weight-200">Investment in</span>
-                            <span>NewYork USA.</span>
+                            {{ __('words.home') }}
                         </h1>
                     </div>
                     <!-- LAYER NR. 4 -->
@@ -62,9 +60,7 @@
                         data-start="1500"
                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
                         <p class="text-white alt-font font-18">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                            vitae egestas mi, vel dapi<br />bus diam. Mauris malesuada,
-                            nisl non rutrum commodo, sem magna.
+                        {{ __('words.dt_infoPostFix') }}
                         </p>
                     </div>
                     <!-- LAYER NR. 5 -->
@@ -85,7 +81,7 @@
                     data-easeout="Power100.easeOut" data-masterspeed="2000" data-fsmasterspeed="1500"
                     data-param1="02">
                     <!-- MAIN IMAGE -->
-                    <img src="{{ $sliders[1]->image }}" data-kenburns="on" data-duration="13000"
+                    <img src="public/uploads/seeders/sliders/02.jpg" data-kenburns="on" data-duration="13000"
                         data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0"
                         data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10"
                         data-bgfit="cover" data-bgrepeat="no-repeat" data-bgposition="center center"
@@ -147,7 +143,7 @@
                     data-easein="Power100.easeIn" data-easeout="Power100.easeOut" data-masterspeed="2000"
                     data-fsmasterspeed="1500" data-param1="03">
                     <!-- MAIN IMAGE -->
-                    <img src="{{ $sliders[2]->image }}" data-kenburns="on" data-duration="11000"
+                    <img src="public/uploads/seeders/sliders/03.jpg" data-kenburns="on" data-duration="11000"
                         data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0"
                         data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10"
                         data-bgfit="cover" data-bgrepeat="no-repeat" data-bgposition="center center"
@@ -215,7 +211,7 @@
                     data-easein="Power100.easeIn" data-easeout="Power100.easeOut" data-masterspeed="2000"
                     data-fsmasterspeed="1500" data-param1="03">
                     <!-- MAIN IMAGE -->
-                    src="{{ $sliders[0]->image }}" data-bgposition="center center"
+                    <img src="public/uploads/seeders/sliders/01.jpg" data-bgposition="center center"
                     data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
                     alt="slider-image" data-no-retina />
                     <div class="bg-overlay bg-black opacity-4"></div>
